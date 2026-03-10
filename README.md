@@ -34,13 +34,32 @@ Romantic Website Template for Someone Special ❤️
 </a>
 </p>
 
+---
+
+# 🚀 Live Demo
+
+<p align="center">
+
+<a href="https://okaberintarou26.github.io/ForYou_Love/" target="_blank">
+
+<img src="https://img.shields.io/badge/🌐%20TRY%20LIVE%20DEMO-CLICK%20HERE-ff69b4?style=for-the-badge">
+
+</a>
+
+</p>
+
+💌 Ingin melihat tampilan websitenya secara langsung?  
+Silakan coba melalui **Live Demo** di atas.
+
+---
+
 # ⭐ Support
 
 Jika kamu suka project ini:
 
-⭐ Star repository ini  
-🍴 Fork untuk modifikasi  
-❤️ Gunakan untuk membuat seseorang bahagia
+⭐ **Star repository ini**  
+🍴 **Fork untuk modifikasi**  
+❤️ **Gunakan untuk membuat seseorang bahagia**
 
 ---
 
