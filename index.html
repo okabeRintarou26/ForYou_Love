@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Untuk Dia Yang Pernah Ada ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="bgMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+
+<button id="muteToggleBtn" class="mute-btn">🔊</button>
+
+<div id="envelopeOverlay">
+    
+    <div id="envelope">
+        <div id="envelopeFlap">💌</div>
+        <span id="envelopeClickText" class="envelope-click-text">👆 Klik untuk membuka</span>
+        <div id="envelopeLetter">
+            Untuk Kamu Yang Spesial 💕<br>
+            <small style="color:#888;font-weight:400">Buka surat cinta ini...</small>
+        </div>
+    </div>
+    
+    <button id="openEnvelopeBtn">✉️ Buka Surat Cinta</button>
+    <p class="envelope-hint">Sebuah kejutan kecil menantimu... 💝</p>
+    
+</div>
+<div id="romanticModal" class="modal">
+    <div class="modal-box typing-box">
+
+        <h2 class="typing-text">
+            Hai Sayang ❤️
+        </h2>
+
+        <p class="typing-text">
+            Aku punya sesuatu yang ingin aku tunjukkan ke kamu hari ini...
+        </p>
+
+        <button id="openWebsiteBtn">
+            Lanjutkan Sayang 💕
+        </button>
+
+    </div>
+</div>
+<div id="mainContent" class="snap-container">
+    <section class="frame hero snap-frame">
+
+        <div class="frame-inner love-trigger">
+
+            <div class="box floating-box typing-box">
+
+                <h1 class="typing-text">
+                    Untuk Mu Yang Tersayang ❤️
+                </h1>
+
+                <p class="typing-text">
+                    Aku tidak tahu bagaimana cara menjelaskan semuanya...
+                </p>
+
+                <p class="typing-text">
+                    Tapi yang jelas, kamu adalah seseorang yang sangat berarti buat aku.
+                </p>
+
+                <p class="typing-text">
+                    Dan halaman ini... khusus aku buat hanya untuk kamu.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="frame snap-frame">
+
+        <div class="frame-inner love-trigger">
+
+            <div class="box floating-box typing-box">
+
+                <h2 class="typing-text">
+                    Untuk Kamu Yang Tersayang 💌
+                </h2>
+
+                <p class="typing-text">
+                    Setiap detik bersamamu adalah kenangan yang ingin aku simpan selamanya.
+                </p>
+
+                <p class="typing-text">
+                    Senyummu adalah cahaya yang selalu menghangatkan hatiku.
+                </p>
+
+                <p class="typing-text">
+                    Aku bersyukur memiliki kamu dalam hidupku.
+                </p>
+
+                <button id="hugBtn">
+                    Peluk Virtual 🤗
+                </button>
+                <div id="hugRain"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="frame snap-frame" id="frame3">
+
+        <div class="frame-inner multi love-trigger">
+            <div class="box floating-box typing-box" id="photoBox">
+
+                <h2 class="typing-text">
+                    Kenangan Indah Kita 📸
+                </h2>
+                <div class="slider" id="photoSlider">
+                    <div class="slides" id="slidesContainer">
+                    </div>
+                </div>
+                <button id="finalSurpriseBtn">
+                    Lihat Kejutan 💝
+                </button>
+                <div class="credit-adz">
+                    Made with ❤️ by Adz
+                </div>
+            </div>
+            <div class="box floating-box typing-box" id="finalSection">
+                <h2 class="typing-text">
+                    Kejutan Untuk Kamu 💗
+                </h2>
+                <p id="surpriseMessage" class="typing-text">
+                    Klik tombol di atas untuk melihat pesan spesial dariku.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="frame snap-frame" id="secretSection">
+        <div class="frame-inner love-trigger">
+            <div class="box floating-box typing-box secret-box">
+                <h2 class="typing-text">
+                    Eh… kamu kok scroll sampai bawah? 😏
+                </h2>
+                <p class="typing-text">
+                    Penasaran ya?
+                </p>
+                <p class="typing-text">
+                    Kalau sudah sampai sini berarti kamu spesial ❤️
+                </p>
+                <button id="sendLoveBtn">
+                    Kirim Sayang ke Aku ❤️
+                </button>
+            </div>
+        </div>
+    </section>
+</div>
+<div id="loveRainGlobal"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
